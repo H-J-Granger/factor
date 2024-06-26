@@ -1,0 +1,2 @@
+#!/bin/bash
+g++ test.cc -o test -lgmp -lgmpxx -I/home/mirai/gmp-6.3.0 -DFACTOR_DEBUG -std=c++2a -Wall -O2
